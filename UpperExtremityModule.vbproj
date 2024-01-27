@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2E260716-9568-4B3F-B302-5C868EDCD6DB}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>UpperExtremityModule.My.MyApplication</StartupObject>
+    <RootNamespace>UpperExtremityModule</RootNamespace>
+    <AssemblyName>UpperExtremityModule</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>UpperExtremityModule.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>UpperExtremityModule.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Amputasyon.Designer.vb">
+      <DependentUpon>Amputasyon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Amputasyon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="artroplasti.Designer.vb">
+      <DependentUpon>artroplasti.vb</DependentUpon>
+    </Compile>
+    <Compile Include="artroplasti.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="D1.Designer.vb">
+      <DependentUpon>D1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="D1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="D2.Designer.vb">
+      <DependentUpon>D2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="D2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="D3.Designer.vb">
+      <DependentUpon>D3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="D3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="D4.Designer.vb">
+      <DependentUpon>D4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="D4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="D5.Designer.vb">
+      <DependentUpon>D5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="D5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DirsekV2.Designer.vb">
+      <DependentUpon>DirsekV2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="DirsekV2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="El Bileği.Designer.vb">
+      <DependentUpon>El Bileği.vb</DependentUpon>
+    </Compile>
+    <Compile Include="El Bileği.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Omuz.Designer.vb">
+      <DependentUpon>Omuz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Omuz.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PeriferikSinir.Designer.vb">
+      <DependentUpon>PeriferikSinir.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PeriferikSinir.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Universal.Designer.vb">
+      <DependentUpon>Universal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Universal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Amputasyon.resx">
+      <DependentUpon>Amputasyon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="artroplasti.resx">
+      <DependentUpon>artroplasti.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="D1.resx">
+      <DependentUpon>D1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="D2.resx">
+      <DependentUpon>D2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="D3.resx">
+      <DependentUpon>D3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="D4.resx">
+      <DependentUpon>D4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="D5.resx">
+      <DependentUpon>D5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DirsekV2.resx">
+      <DependentUpon>DirsekV2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="El Bileği.resx">
+      <DependentUpon>El Bileği.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.af-NA.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Omuz.resx">
+      <DependentUpon>Omuz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PeriferikSinir.resx">
+      <DependentUpon>PeriferikSinir.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Universal.resx">
+      <DependentUpon>Universal.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "UpperExtremityModule", "UpperExtremityModule.vbproj", "{2E260716-9568-4B3F-B302-5C868EDCD6DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E260716-9568-4B3F-B302-5C868EDCD6DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E260716-9568-4B3F-B302-5C868EDCD6DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E260716-9568-4B3F-B302-5C868EDCD6DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E260716-9568-4B3F-B302-5C868EDCD6DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19D51891-977B-4CF1-84CA-C5CC9C02746A}
+	EndGlobalSection
+EndGlobal
